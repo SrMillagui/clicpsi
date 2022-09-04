@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" text="text/css" href="estilo.css">
+   <title>ClicPsi-Psicologa Online</title>
+   <link rel="icon" type="icon/png" href="./image/logoPsicologia.png">
+</head>
+
+<body>
+  <header>
+  
+    <a href="index.html" class="logo">
+      <img src="./image/logoPsicologia.png" alt="Consultorio Online" class="imagen-logo">
+      <h2>ClicPsi - Terapia online</h2> <br>
+     
+    <nav class="navbar">
+      <a href="index.html" class="nav-link">INICIO</a>
+      <a href="Formacion.html" class="nav-link">CONOCEME</a>
+      <a href="Contacto.html" class="nav-link">CONTACTO</a>
+       </nav>
+  </header>
+  <main>
+    <div class="titulo">
+      <h1>Tu consulta es bienvenida</h1><hr><br>
+      <p>
+        Si tienes alguna duda con mucho gusto estaré atendiendo tus consultas ya sea a travez del formulario o telefónicamente.
+      </p>
+      <div class="mainBoton">
+      <a href="Contacto.html">
+      <p><b>PEDIR TURNO</b><p><br>
+      </a>  
+      </div>
+    </div>
+    <div class="mainImage">
+      <img src="./image/png/contacto.png" alt="">
+    </div>
+  </main>
+
+  <div class="figuras">
+   
+    <div class="imagen">
+        <img src="./image/iconos/profesionalcertificado.png" alt=""><br>
+        <h4>PROFESIONAL CERTIFICADO</h4>
+    </div>
+    <div class="imagen">
+        <img src="./image/iconos/atencionpersonalizada.png" alt=""><br>
+        <h4>ATENCION ONLINE</h4>
+     </div>
+    <div class="imagen">
+        <img src="./image/iconos/atencion.png" alt=""><br>
+        <h4 class="personalizada">ATENCION PERSONALIZADA</h4>
+    </div>
+        
+</div>
+<div class="titulo-contacto">
+<p>Pedi tu turno o hace tu consulta <br> usando el formulario o a través de contacto telefónico</p>  
+</div>
+
+  <section class="home">
+        <div class="div-formulario">
+         
+        <form class="contact-form" action="https://formsubmit.co/clarisatones@gmail.com" method="POST" target="_blank">
+          <legend>Estoy para ayudarte. Consulta tus dudas y te estaré contestando rápidamente.</legend><br><br>
+          <input class="form" type="text" name="name" placeholder="Escribe tu nombre" title="Esta sección solo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required><br><br>
+          <input class="form" type="email" name="email" placeholder="Escribe tu email" title="Coloca tu mail aqui" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required><br><br>
+          <input class="form" type="tel" placeholder="Teléfono" title= "Porfavor coloca un número de teléfono"required><br><br>
+          <textarea class= "form-text" name="comments" cols="34" rows="5" placeholder="Escribe tu consulta" title="Porfavor escribe tu consulta en menos de 255 caracteres" data-patern="^.{1,255}$" required></textarea>
+          <br><br>
+          <input type="submit" value="Enviar">
+          <br><br>
+          <div class="contact-form-loader none">
+            <img src="./assets/30.svg" alt="Cargando">
+          </div>
+          <div class="contact-form-response none">
+<p>Los datos han sido enviados</p>
+          </div>
+         
+        </form>
+        <h3>Pedi tu turno</h3>
+        <div class="wspmail">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABHElEQVRIS2NkoDFgpLH5DMPTAhNgsE0GYgsyg+8EUF8pEB8B6ccWRMcpMBzmpjNAhikuC/5DVX0B0rlAvIBIn0QA1c0GYh6oerDjsfkAZgHMXJAFIItAFmIDHEDBfiDOQJMkaEEiNC5ALroCxJFQGtkcHSBnMRAbQB0Acsh8Yn0AcgHIgOVQGj3IEnA4ABYCBH0ACz6QD0CpCmQgCCyA0jD+EiA/E+oDkBRBC9CCEs5FdjFI8AcQFwLxDDQNOC1Aj1xkfTDfwMIcFLGgOLmAxTUUWYDLd8jiZAcRMYYTFQe4gorYgpGgD2huAaGgwJcYYHrxlkXYIgwmBgomQhaADK8E4j0gTYTCFd0wQuoxfE+yBkLhhy4/agHBEAMAi4s4GSh7gJMAAAAASUVORK5CYII=" />
+            <img
+           
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABfElEQVRIS2NkoDFgpLH5DANiAQvQVxVALA/EhUD8hRJfovuAB2jYciD2gRq6BUgHAvEfci1Bt2A30CAXNMOWAPmx1LLgPw6DJkCDi2R70H3wGGiCDA5TMoHiM0i1gZgggpl5BMiwpdSC6UADMrAY8gIo5gjENyi1ABTBoIhGBiBDXYH4CamGg9SjBxEoD9xHiwdTIP8MOYZjswAk1g3EJUgGVgLZHdS0QAFo2GUgBmU6EPgBxJZAfAHNEgkgvx2IDwLxAlwOwFUWgYoKkGYYuANkgHL0FaiAAJA+DsQaUH4PkC7FZgkuC0BxsRmIPZA0gcqkWiDeAMSLgdgGzUCQL1KBGKVYwVeagoLoNJIrcYUCsjjIclCxAi8gCRXXIEtmA3EEMaZD1awB0qEw9YQsgKkDZb5+IOYgwqIpQDW5pFoAUq8CxOlAnALEoEjGBk4ABUGZkuggwmYIyBcBQGwOxCZArADEoAISlIw9gRhUrMABsUFERMhgVzL0LQAABbQ0GRnWsHkAAAAASUVORK5CYII=" />
+          </div>
+      
+    </div>
+    
+     </section>
+     <footer class="footer">
+      <div><p> Copyrigth: Todos los derechos reservados</p></div>
+      <div class="icon">
+        <a  href="https://www.instagram.com/clarisatones/" target="_blank">
+        <img  class="insta" src="./image/icons8-instagram-80.png" alt="Instagram">
+         </a>
+      <a href="https://www.facebook.com/drake.tones/" target="_blank">
+        <img  class="face" src="./image/face.png" alt="Facebook" >
+      </a>
+      </div>
+           
+    </footer>
+
+  <script src="./js/index.js" type="module"></script>
+</body>
+
+</html>
